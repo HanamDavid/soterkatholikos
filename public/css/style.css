@@ -1,0 +1,142 @@
+:root {
+      --background-color: #F4E9D8;
+  --text-color: #3A2E2C;
+  --heading-color: #6D4C41;
+  --link-color: #B71C1C;
+  --accent-color: #C0A080;
+}
+
+.dark-mode {
+     --background-color: #1A1310;
+  --text-color: #EDE0CF;
+  --heading-color: #D1A968;
+  --link-color: #C08552;
+  --accent-color: #9C7A5B;
+
+}
+
+
+.logo{
+    max-width: 105px;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'EB Garamond', serif;
+}
+
+h1, h2, h3 {
+  color: var(--heading-color);
+}
+
+a {
+  color: var(--link-color);
+}
+
+strong, em {
+  color: var(--accent-color);
+}
+
+/* 🌟 Navbar */
+.navbar {
+  font-family: "Playfair Display", sans-serif;
+  color: var(--text-color);
+  padding: 10px 20px;
+}
+.navbar-brand{
+    font-weight: bold;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+}
+
+
+/* 📜 Links del menú */
+.nav-link {
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: var(--link-color);
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  margin:10px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: whitesmoke;
+}
+
+/* 🔎 Barra de búsqueda */
+.search-form {
+  display: flex;
+  align-items: center;
+  background: rgba(240, 240, 240, 0.6);
+  border-radius: 30px;
+  padding: 5px;
+}
+
+.search-input {
+  border: none;
+  border-radius: 30px;
+  padding: 10px 15px;
+  width: 40vw;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.search-input:focus {
+  box-shadow: 0 0 8px var(--accent-color);
+}
+
+/* 🔘 Botón de búsqueda */
+.btn-search {
+  background: var(--accent-color);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-left: 5px;
+}
+
+.btn-search:hover {
+  background: var(--hover-color);
+  transform: scale(1.1);
+}
+
+.btn-search svg {
+  stroke: white;
+  width: 20px;
+  height: 20px;
+}
+.btn-dark-mode{
+  background-color: var(--link-color);  /* Uses the same color as links */
+  color: var(--text-color);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+
+}
+/* Container */
+.main-container{
+    border: 2px black solid;
+    border-radius: 5px;
+    min-height: 80vh;
+}

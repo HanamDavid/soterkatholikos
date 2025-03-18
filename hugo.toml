@@ -1,0 +1,22 @@
+baseURL = 'https://example.org/'
+languageCode = "es"
+title = "Soter Katholikos"
+theme = "katholikOS"
+pagination.pagerSize = 10
+enableRobotsTXT = true  # Permite que los motores de búsqueda indexen el sitio
+summaryLength = 160  # Controla la longitud de las descripciones meta
+
+[params]
+  description = "Sitio web de patristica que busca que la comunidad hispanohablante pueda conocer y estudiar los textos patristicos y relevantes para su fe"
+  author = "Juan David Guarnizo"
+  keywords = ["patristica", "fe", "cristianismo","amor","Dios", "SEO"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Permite HTML sin filtrar en Markdown
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 3
+    ordered = false
+

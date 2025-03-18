@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{{ .Title }}</title>
+  {{ partial "head.html" . }}
+  {{ partial "seo.html" . }}
+</head>
+<body>
+
+  <header>
+    {{ partial "nav.html" . }}
+  </header>
+
+  <div class="container-fluid mt-5"> <!-- mt-5 para compensar la altura del navbar -->
+    <div class="row">
+      <main class="col-md-10 offset-md-1 main-content">
+         <div id="transition-overlay"></div>
+         {{ block "main" . }}{{ end }}
+      </main>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+   <script src="{{ "/js/index.js" | relURL }}"></script>
+
+
+</body>
+</html>
+
