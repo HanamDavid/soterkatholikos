@@ -10,6 +10,9 @@ summaryLength = 160  # Controla la longitud de las descripciones meta
   description = "Sitio web de patristica que busca que la comunidad hispanohablante pueda conocer y estudiar los textos patristicos y relevantes para su fe"
   author = "Juan David Guarnizo"
   keywords = ["patristica", "fe", "cristianismo","amor","Dios", "SEO"]
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
 
 [markup]
   [markup.goldmark]

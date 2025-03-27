@@ -1,0 +1,16 @@
+{{ define "main" }}
+<body>
+    <div class="container mt-5 main-container">
+        <h1 class="text-center mb-4">Nuestros textos</h1>
+
+        <nav class="nav flex-column">
+            {{ range .Pages.ByTitle }}
+                <a href="{{ .RelPermalink }}" class="nav-link py-2 border-bottom padres-nav">
+                           {{ with .Params.author }}{{ . }} - {{ end }}{{ .Title }}
+                </a>
+            {{ end }}
+        </nav>
+    </div>
+</body>
+{{ end }}
+

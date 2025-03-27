@@ -6,6 +6,28 @@
     <description>Recent content in Categories on Soter Katholikos</description>
     <generator>Hugo</generator>
     <language>es</language>
+    <lastBuildDate>Thu, 20 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cristianismo</title>
+      <link>http://localhost:1313/categories/cristianismo/</link>
+      <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/cristianismo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Historia</title>
+      <link>http://localhost:1313/categories/historia/</link>
+      <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/historia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Teología</title>
+      <link>http://localhost:1313/categories/teolog%C3%ADa/</link>
+      <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/teolog%C3%ADa/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

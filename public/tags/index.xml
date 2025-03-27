@@ -6,6 +6,28 @@
     <description>Recent content in Tags on Soter Katholikos</description>
     <generator>Hugo</generator>
     <language>es</language>
+    <lastBuildDate>Thu, 20 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Evangelios</title>
+      <link>http://localhost:1313/tags/evangelios/</link>
+      <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/evangelios/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Padres De La Iglesia</title>
+      <link>http://localhost:1313/tags/padres-de-la-iglesia/</link>
+      <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/padres-de-la-iglesia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Textos Antiguos</title>
+      <link>http://localhost:1313/tags/textos-antiguos/</link>
+      <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/textos-antiguos/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
